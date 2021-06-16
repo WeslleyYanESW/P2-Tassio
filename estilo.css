@@ -1,0 +1,106 @@
+#cabecalho{
+	width: 600px;
+	padding: 40px 2%;
+	color: white;
+	text-align: center;
+	padding-left: 300px;
+	
+}
+
+#corpo{
+	width: 600px;
+	padding: 10px 2%;
+	padding-left: 300px;
+}
+
+#rodape{
+	width: 600px;
+	padding: 10px 2%;
+	color: black;
+	text-align: center;
+	padding-left: 400px;
+	padding-right: 150px;
+	}
+
+.sessao_conteudo1{
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+  
+.sessao_conteudo2{
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.mensagem{
+	padding-right: 20px;
+}
+
+.button{
+	padding-left: 80px;
+}
+
+ul .topicos {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover, .categorias:hover .dropbtn {
+	background-color: red;
+  }
+  
+  li.categorias {
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: red;}
+  
+  .categorias:hover .dropdown-content {
+	display: block;
+  }
+  
+  
+  
+  .lista{
+	  padding: 20px;
+  }
+
+  #rodape {
+	text-align: center;
+	color: white;
+	background-color: red;
+  }
