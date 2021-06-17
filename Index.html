@@ -1,0 +1,109 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carrinho de compras</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
+        <script>
+        //console.log(json);
+        { 
+            function retornaObjeto(id){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            // Typical action to be performed when the document is ready:
+            dados = xhttp.responseText;
+            document.getElementById("").innerHTML = dados.items.product3.name3;
+        }
+    };
+    xhttp.open("GET", "testes.py", true);
+    xhttp.send();
+    }
+    
+            
+    }
+        
+    
+        </script>
+    
+    </head>
+<body >
+    <div class="sessao_conteudo1"> 
+        <header>
+            <nav class="navbar navbar-light bg-faded" style="background-color: 	#FFD700">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="Img/logo.png" alt="" width="40" height="90">
+                    </a>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <div class="menu-oppener">
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"></ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div>
+                <img src="Img/Canon.jpg" />
+                
+            </div>
+            <br><br>
+            <div>   
+                <h2 id="NomeCam">Câmera Digital Canon EOS Rebel T5i 18.0 Megapixels</h2>
+                <br><br>
+                <h3 id="PreçoCam">R$ 1999.20</h3>
+                <br><br>
+                <h4>15% de desconto em 1x no Cartão ou Boleto. sem juros <a href="">ver parcelamento</a></h4>
+                <br><br>
+                <button>Adicionar ao carrinho</button>
+            </div>
+        </section>
+        <br><br>
+        <section>
+            <div id="ImgTv">
+                <img src="Img/TV.jpg" />
+            </div>
+            <br><br>
+            <div> 
+                <h2>Smart TV Samsung Série 4 UN32J4300AG 32 polegadas LED Plana</h2>
+                <br><br>
+                <h3>R$  1139.90</h3>
+                <br><br>
+                <h4>15 % de desconto 1x no cartão, banQi e Boleto. sem juros <a href="">ver parcelamento</a></h4>
+                <br><br>
+                <button>Adicionar ao carrinho</button>
+            </div>
+        </section>
+        <br><br>
+        <section>
+            <div id="ImgCEL">
+                <img src="Img/Celular.jpg" />
+                
+            </div>
+            <br><br>
+            <div>
+                <h2>Smartphone Apple iPhone 7 128GB</h2>
+                <br><br>
+                <h3>R$ 3509.10</h3>
+                <br><br>
+                <h4>ou até 10x de R$91,90 sem juros <a href="">ver parcelamento</a></h4>
+                <br><br>
+                <button>Adicionar ao carrinho</button>
+            </div>
+        </section>   
+        <br><br>
+    </div>
+    
+</body>
+</html>
